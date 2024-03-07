@@ -13,6 +13,7 @@ body{
     align-items: center;
     height: 100vh;
     position: relative;
+    text-align: center;
 }
 img {
     width: 30vw;
@@ -27,4 +28,12 @@ h1{
 audio {
     position: absolute;
     visibility: hidden;
+}
+
+h2{
+    position: absolute;
+    bottom: 2vh;
+    left: 44%;
+    color: yellow;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;
 }
